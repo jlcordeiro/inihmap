@@ -1,0 +1,13 @@
+{
+  "name": "inihmap",
+  "version": "0.0.1",
+  "repo": "jlcordeiro/inihmap",
+  "description": "Create a map out of an ini file.",
+  "keywords": ["ini", "map", "container"],
+  "license": "MIT",
+  "src": ["inihmap.c", "inihmap.h"],
+  "dependencies": {
+      "jlcordeiro/cmap": "*",
+      "clibs/inih": "*"
+  }
+}
